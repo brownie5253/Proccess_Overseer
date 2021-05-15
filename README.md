@@ -3,9 +3,10 @@ Server that receives through sockets a processes to queue, assigns thread to run
 
 Arguments to pass to the server/overseer:
 overseer <port>
+  
   <port> overseer port
    
-Arguments to pass to the server/overseer
+Arguments to pass to the server/overseer:
 controller <address> <port> [-o out_file] [-log log_file] [-t seconds] <file> [arg...]
   
   <address> overseer IP address
