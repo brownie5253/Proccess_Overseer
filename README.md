@@ -1,12 +1,16 @@
 # Proccess_Overseer
+Please view raw version as many special characters don't appear
+
 Server that receives through sockets a processes to queue, assigns thread to run it then monitors it and finally sends back result to controller
 
 Arguments to pass to the server/overseer:
+
 overseer <port>
   
   <port> overseer port
    
 Arguments to pass to the server/overseer:
+
 controller <address> <port> [-o out_file] [-log log_file] [-t seconds] <file> [arg...]
   
   <address> overseer IP address
